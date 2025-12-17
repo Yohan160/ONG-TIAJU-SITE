@@ -273,18 +273,13 @@ body{
         font-size: 2rem;
     }
     .redes, .formas-contato, .localizacao{
-        width: 40%;
+        width: 35%;
     }
     .inf-rodape{
         margin-top: 2dvh;
         left: 1vh;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         width: 100%;
-    }
-
-    .inf-rodape p{
-        width: 80px;
-        font-weight: 600;
     }
 
     .fundo,
