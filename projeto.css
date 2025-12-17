@@ -269,17 +269,22 @@ body{
     .logo-rodape img{
         display: none;
     }
-
     .rodape h1{
-        font-size: 0.8rem;
+        font-size: 0.80rem;
+    }
+    .redes, .formas-contato, .localizacao{
+        width: 40%;
+    }
+    .inf-rodape{
+        left: 1vh;
+        bottom: 9vh;
+        font-size: 0.7rem;
+        width: 100%;
     }
 
-    .inf-rodape{
-        display: flex;
-        left: 1vh;
-        bottom: 10dvh;
-        font-size: 1rem;
-        width: 100%;
+    .inf-rodape p{
+        width: 80px;
+        font-weight: 600;
     }
 
     .fundo,
