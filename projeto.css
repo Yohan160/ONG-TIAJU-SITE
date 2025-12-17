@@ -190,48 +190,7 @@ body{
 
 /* NOTEBOOK */
 @media (max-width:1200px) and (min-width:701px){
-   .Projeto{
-      margin-left: -3vh;
-      max-width: 70%;
-      font-size: 1.1rem;
-      overflow-y: auto;
-      height: 54vh;
-      box-sizing: border-box;
-   } 
 
-   .Projeto h1{
-      font-size: 3rem;
-      margin-left: 1vh;
-   }
-
-   .frente img{
-      max-width: 60vw;
-      height: 75vh;
-   }
-
-   .fundo{
-      height: 100vw;
-   }
-
-   .logo-rodape img{
-      display: none;
-   }
-
-   .rodape{
-      top: 95vw;
-      height: 30vh;
-   }
-
-   .inf-rodape{
-      bottom: 5vh;
-      left: 10%;
-      font-size: 1.2rem;
-      width: 80%;
-   }
-
-   .inf-rodape h1{
-      font-size: 1.4rem;
-   }
 }
 
 /* CELULAR */
@@ -283,10 +242,28 @@ body{
         width: 6vh;
     }
 
+
+    .Projeto{
+        overflow-y: auto;
+        height: 59dvh;
+        top: 10vh;
+        left: 2vh;
+        max-width: 90%;
+    }
+    .Projeto h1{
+    font-size: 4rem;
+    }
+    .Projeto p{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    
     .rodape{
-        top: 650px;
-        position: relative;
-        height: 36vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 70dvh;
+        height: 35dvh;
     }
 
     .logo-rodape img{
@@ -298,54 +275,15 @@ body{
     }
 
     .inf-rodape{
+        display: flex;
         left: 1vh;
-        bottom: 10vh;
-        font-size: 0.75rem;
-        width: 50%;
-    }
-
-    .Projeto{
-        overflow-y: auto;
-        height: 60dvh;
-        top: 10vh;
-        left: 2vh;
-        max-width: 90%;
-    }
-
-    .Projeto p{
-        font-size: 0.9rem;
-        font-weight: bold;
-    }
-
-    .Projeto h1{
-        font-size: 4rem;
+        bottom: 10dvh;
+        font-size: 1rem;
+        width: 100%;
     }
 
     .fundo,
     .frente img{
         display: none;
     }
-}
-
-/* ajustes finos mobile */
-@media (max-width:600px) and (min-width:540px){
-    .Projeto p{
-        font-size: 0.87rem;
-    }
-}
-
-@media (max-width:420px){
-    .Projeto{ height: 60dvh; }
-}
-
-@media (max-width:400px){
-    .Projeto{ height: 66dvh; }
-}
-
-@media (max-width:380px){
-    .Projeto{ height: 68dvh; }
-}
-
-@media (max-width:360px){
-    .Projeto { height: 70dvh;}
 }
