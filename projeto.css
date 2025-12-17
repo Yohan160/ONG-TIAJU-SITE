@@ -270,16 +270,16 @@ body{
         display: none;
     }
     .rodape h1{
-        font-size: 2rem;
+        font-size: 0.80rem;
     }
     .redes, .formas-contato, .localizacao{
-        width: 35%;
+        width: 30%;
     }
     .inf-rodape{
         margin-top: 2dvh;
         left: 1vh;
-        font-size: 0.6rem;
-        width: 100%;
+        font-size: 0.7rem;
+        width: 95%;
     }
 
     .fundo,
