@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="servicos.css">
+        <script>
+      function toggleMenu() {
+    document.querySelector(".nav-list").classList.toggle("active");
+}
+    </script>
 </head>
 <body>
 <div class="navbar">
     <div class="Logo"><img src="img/LOGO.png" alt="" class="Logo1"></div>
-
-        <div class="hamburger" onclick="toggleMenu()">
+     
+    <div class="hamburger" onclick="toggleMenu()">
       <span></span>
       <span></span>
       <span></span>
   </div>
 
-  
-     <ul class="nav-list">
+    <ul class="nav-list">
          <li class="nav-item"><a href="index.html">Início</a></li>
          <li class="nav-item"><a href="Projeto.html">Projeto</a></li>
          <li class="nav-item"><a href="Serviços.html">Serviços</a></li>

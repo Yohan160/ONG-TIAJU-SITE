@@ -583,18 +583,12 @@ html {
     }
 }
 
-@media (max-width:700px){
-    .navbar{
-        height: 7%;
-    }
-    .hamburger {
+@media (max-width: 1000px){
+            .hamburger {
         display: flex;
         margin-right: 4vh;
     }
-
-    @media (max-width: 700px) {
-
-        .nav-list {
+            .nav-list {
             position: absolute;
             top: 100%;
             right: -5%;
@@ -623,9 +617,12 @@ html {
             color: #000;
             font-weight: 600;
         }
+}
+
+@media (max-width:700px){
+    .navbar{
+        height: 7%;
     }
-    
-    
     .Logo1{
     width: 6.5vh;
     }
