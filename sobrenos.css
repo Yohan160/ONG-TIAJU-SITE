@@ -398,17 +398,17 @@ body{
 
 @media (max-width:800px){
     .navbar{
-        height: 8%;
+        height: 8dvh;
     }
         .hamburger {
         display: flex;
-        margin-right: 4vh;
+      
     }
     .Logo1{
     width: 6vh;
     }
     .fundador{
-        margin-top: -5vh;
+        top: -6dvh;
         width: 60%;
         height: 10vh;
         font-size: 1rem;
