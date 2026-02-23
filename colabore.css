@@ -71,13 +71,12 @@ body{
 }
 
 .colabore {
-    width: 100%;
-    min-height: 1100px; /* melhor que height fixa */
+    min-height: 1100px;
     background-image: url("img/Frame 21.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow-x: hidden; /* impede overflow lateral */
+    overflow-x: hidden; 
 }
 
 .colabore-mobile {
@@ -148,8 +147,7 @@ body{
 }
 
 .inf p{
-    max-width: 1200px;
-}
+    max-width: 80%}
 
 .rodape{
     margin-top: 5vh;
@@ -214,7 +212,7 @@ body{
         font-size: 1.4rem;
     }
 }
-@media (max-width: 700px){
+@media (max-width: 1000px){
     .navbar{
         margin-top: -6vh;
         height: 8%;
@@ -231,7 +229,7 @@ body{
         justify-content: center;
         align-items: center;
         width: 100%;
-        min-height: 250px;
+        min-height: 30dvh;
         background-size: cover;
         background-position: center;
         overflow-x: hidden;
@@ -245,50 +243,58 @@ body{
         position: absolute;
         top: 5vh;
         left: 1vh;
-        font-size: 0.7rem;
-        max-width: 35%;
+        font-size: 1rem;
+        max-width: 85%;
     }
     .colabore-mobile h1{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         background: linear-gradient(90deg, rgb(149, 0, 218), rgb(255, 153, 0) 70%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     .colabore-mobile p{
         position: absolute;
-        top: 4vh;
+        top: 3.5vh;
+        width: 17dvh;
+       overflow-y: auto;
+        height: 18dvh;
     }
     .inf{
-        margin-top: 55vh;
+        margin-top: 59dvh;
         font-size: 1.3rem;
     }
-    .rodape{
+.rodape{
         position: relative;
-        height: 44vh;
+        height: 35vh;
         width: 100%;
     }
     .logo-rodape img{
         display: none;
     }
     .rodape h1{
-        font-size: 0.8rem;
+        font-size: 0.80rem;
     }
     .redes, .formas-contato, .localizacao{
-        width: 50%;
+        width: 40%;
     }
     .inf-rodape{
         left: 1vh;
         bottom: 9vh;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
+        width: 100%;
     }
+
     .inf-rodape p{
-        width: 90px;
+        width: 80px;
+        font-weight: 600;
     }
     .doacao{
+        position: absolute;
+        top: 37dvh;
+        left: 50%;
+        transform: translateX(-50%);
         width: 250px;
         height: 350px;
-        top:33vh;
-        left: 13%;
     }
     .doacao img{
         width: 180px;

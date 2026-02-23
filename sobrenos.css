@@ -28,6 +28,20 @@ body{
     margin-right: 5%;
 }
 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger span {
+    width: 30px;
+    height: 3px;
+    background: #000;
+    border-radius: 5px;
+}
+
 .Logo{
     position: absolute;
     left: 7%;
@@ -386,9 +400,6 @@ body{
     .navbar{
         height: 8%;
     }
-    .nav-list{
-        display: none;
-    }
         .hamburger {
         display: flex;
         margin-right: 4vh;
@@ -450,7 +461,7 @@ body{
     .adm h1{
         font-size: 1.5rem;
     }
-    .rodape{
+.rodape{
         position: relative;
         height: 35vh;
         width: 100%;
@@ -459,18 +470,20 @@ body{
         display: none;
     }
     .rodape h1{
-        font-size: 0.8rem;
+        font-size: 0.80rem;
     }
     .redes, .formas-contato, .localizacao{
-        width: 50%;
+        width: 40%;
     }
     .inf-rodape{
         left: 1vh;
         bottom: 9vh;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
+        width: 100%;
     }
 
     .inf-rodape p{
-        width: 90px;
+        width: 80px;
+        font-weight: 600;
     }
 }

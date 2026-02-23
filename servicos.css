@@ -227,7 +227,7 @@ body{
         font-size: 0.9rem;
         max-width: 80%;
     }
-        .rodape{
+.rodape{
         position: relative;
         height: 35vh;
         width: 100%;
@@ -236,18 +236,20 @@ body{
         display: none;
     }
     .rodape h1{
-        font-size: 0.8rem;
+        font-size: 0.80rem;
     }
     .redes, .formas-contato, .localizacao{
-        width: 50%;
+        width: 40%;
     }
     .inf-rodape{
         left: 1vh;
         bottom: 9vh;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
+        width: 100%;
     }
 
     .inf-rodape p{
-        width: 90px;
+        width: 80px;
+        font-weight: 600;
     }
 }
