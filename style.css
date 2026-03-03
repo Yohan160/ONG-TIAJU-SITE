@@ -208,7 +208,7 @@ html {
   }
 
   100%{
-    transform: translateY(-1100px);
+    transform: translateY(-1025px);
   }
 }
 
@@ -583,7 +583,27 @@ html {
     }
 }
 
+.botao:hover, .card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+/* Desliga hover em telas pequenas */
+@media (max-width: 900px) {
+  .botao:hover, .card:hover {
+    transform: none !important;
+    transition: none !important;
+  }
+
+  /* Ou, se quiser prevenir qualquer hover/efeito */
+  .botao, .card {
+    pointer-events: auto; /* mantém clique normal */
+  }
+}
 @media (max-width: 1000px){
+     *:hover {
+    
+  }
             .hamburger {
         display: flex;
         margin-right: 4vh;
