@@ -590,16 +590,25 @@ html {
 
 /* Desliga hover em telas pequenas */
 @media (max-width: 900px) {
-  .botao:hover, .card:hover {
+  /* Todos os botões */
+  button:hover,
+  #Colabore:hover,
+  .Nossas-aulas2 button:hover,
+  .Como-ajudar button:hover,
+  .desc-impacto button:hover {
     transform: none !important;
-    transition: none !important;
+    box-shadow: none !important;
+    background-color: inherit !important; /* mantém a cor original */
   }
 
-  /* Ou, se quiser prevenir qualquer hover/efeito */
-  .botao, .card {
-    pointer-events: auto; /* mantém clique normal */
+  /* Links que tinham efeito hover */
+  .redes-sociais a:hover,
+  .forma-colaborar:hover {
+    transform: none !important;
+    background-color: inherit !important;
   }
 }
+
 @media (max-width: 1000px){
      *:hover {
     
