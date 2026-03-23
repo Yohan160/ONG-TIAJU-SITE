@@ -723,7 +723,7 @@ html {
     }
     .desc-impacto p{
         width: 95%;
-        max-height: 80%;
+        max-height: 75%;
         font-size: 1.05rem;
         margin-right: 4vh;
     }
