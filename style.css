@@ -392,7 +392,7 @@ html {
 }
 
 .Como-ajudar button{
-    margin: 5vh;
+    margin: 5vh 0vh 5vh 0vh;
     height: 12vh;
     width: 45vh;
     font-size: 1.5rem;
@@ -746,7 +746,7 @@ html {
     margin-right: auto;
     }
     .Como-ajudar button{
-        width: 80%;
+        width: 20vh;
     }
     .desc-espaco{
         height: 30vh;

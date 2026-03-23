@@ -438,7 +438,7 @@ body{
     }
     .container img, .container1 img, .container2 img, .container3 img, .container4 img, .container5 img, .container6 img, .container7 img{
         width: 55%;
-        height: 25vh;
+        height: 26vh;
     }
     .desc-criss, .desc-elvira, .desc-fernanda, .desc-michele, .desc-monica, .desc-rodrigo, .desc-vanice p{
         font-size: 0.8rem;
