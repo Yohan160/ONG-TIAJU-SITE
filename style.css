@@ -318,8 +318,8 @@ html {
 
 .desc-impacto button{
     margin-top: 2vw;
-    height: 10%;
-    width: 30%;
+    height: 10vh;
+    width: 30vh;
     font-size: 1.3rem;
     color: white;
     font-weight: 600;
@@ -588,27 +588,6 @@ html {
   transition: transform 0.3s;
 }
 
-/* Desliga hover em telas pequenas */
-@media (max-width: 900px) {
-  /* Todos os botões */
-  button:hover,
-  #Colabore:hover,
-  .Nossas-aulas2 button:hover,
-  .Como-ajudar button:hover,
-  .desc-impacto button:hover {
-    transform: none !important;
-    box-shadow: none !important;
-    background-color: inherit !important; /* mantém a cor original */
-  }
-
-  /* Links que tinham efeito hover */
-  .redes-sociais a:hover,
-  .forma-colaborar:hover {
-    transform: none !important;
-    background-color: inherit !important;
-  }
-}
-
 @media (max-width: 1000px){
      *:hover {
     
@@ -725,7 +704,7 @@ html {
     }
 
     .Nossas-aulas2 button{
-        width: 50%;
+        width: 25dvh;
         height: 8vh;
         font-size: 1.5rem;
     }
