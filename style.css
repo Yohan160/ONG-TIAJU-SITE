@@ -722,9 +722,9 @@ html {
         font-size: 1.5rem;
     }
     .desc-impacto p{
-        width: 90%;
-        max-height: 85%;
-        font-size: 1.1rem;
+        width: auto;
+        max-height: 60%;
+        font-size: 1.05rem;
         margin-right: 4vh;
     }
     .desc-impacto button{
