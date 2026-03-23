@@ -722,8 +722,8 @@ html {
         font-size: 1.5rem;
     }
     .desc-impacto p{
-        width: auto;
-        max-height: 60%;
+        width: 95%;
+        max-height: 80%;
         font-size: 1.05rem;
         margin-right: 4vh;
     }
